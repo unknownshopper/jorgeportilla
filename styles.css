@@ -543,6 +543,12 @@ body {
   text-transform: uppercase;
   color: var(--gold-600);
 }
+.stat-card--muted {
+  border-top-style: dashed;
+  border-top-color: var(--muted);
+  background: var(--sand-100);
+}
+.stat-card--muted .stat-card__num { color: var(--muted); }
 
 .data-list {
   display: grid;
