@@ -1,0 +1,13 @@
+# Entorno virtual de Python (herramientas de edición de imágenes)
+.venv/
+
+# Cachés de Python
+__pycache__/
+*.pyc
+
+# Editor
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
