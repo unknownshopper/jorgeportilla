@@ -5,6 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jorge Portilla — Tulum merece más | Alcalde 2027</title>
   <meta name="description" content="Jorge Portilla, candidato a la alcaldía de Tulum. Un plan real para el agua, la seguridad, la movilidad y el medio ambiente de nuestro municipio." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://unknownshopper.github.io/jorgeportilla/" />
+  <meta property="og:title" content="Jorge Portilla — Tulum merece más" />
+  <meta property="og:description" content="Vecino de Tulum y candidato a la alcaldía 2027. Un plan real para el agua, la seguridad y el orden de nuestro municipio." />
+  <meta property="og:image" content="https://unknownshopper.github.io/jorgeportilla/jorge2.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -22,6 +29,7 @@
       <nav class="nav__links">
         <a href="#conoce">Conóceme</a>
         <a href="#dolencias">Tulum hoy</a>
+        <a href="datos.html">Los datos</a>
         <a href="#plan">El plan</a>
         <a href="#sumate" class="nav__cta">Súmate</a>
       </nav>
@@ -251,10 +259,14 @@
         <h2 class="cta__title">Tulum se arregla entre todos.</h2>
         <p class="cta__lead">Súmate como voluntario, propón soluciones para tu colonia o simplemente mantente informado.</p>
       </div>
-      <form class="cta__form" action="#" method="post">
+      <!-- Crear cuenta gratis en formspree.io, crear formulario y
+           sustituir TU_ID_AQUI por el ID (ej. https://formspree.io/f/xabcdwyz) -->
+      <form class="cta__form" action="https://formspree.io/f/TU_ID_AQUI" method="POST">
         <input type="text" name="nombre" placeholder="Tu nombre" required />
         <input type="email" name="email" placeholder="Tu correo" required />
         <input type="text" name="colonia" placeholder="Tu colonia" />
+        <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+        <input type="hidden" name="_subject" value="Nuevo voluntario — Campaña Portilla" />
         <button class="btn btn--light" type="submit">Sumarme</button>
       </form>
     </div>
